@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%)
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+  
+.card{
+    width: 300px;
+    background: var(--White);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.cardImage img{
+    height: 300px;
+    border: 20px;
+}
+
+body{
+    background-color: var(--Light-gray);
+    font-family: "Outfit", sans-serif;
+}
+
+.cardContainer{
+    text-align: center;
+}
+
+
+.cardContent{
+text-align: center;
+padding: 10px;
+}
+
+.cardBody{
+    color: var(--Grayish-blue);
+}
+
+
+.attribution{
+    padding-left:740px;
+}
